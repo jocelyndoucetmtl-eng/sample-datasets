@@ -53,12 +53,12 @@ Fluidmapper-Dual-Rushton-Sample-Dataset/
 
 | Condition | File | Description |
 |---|---|---|
-| **300 RPM** | `Predicted_coordinates_and_stds.txt` | **Lagrangian time series.** Time-resolved 3D trajectory of the radioactive tracer reconstructed from the detector measurements. Includes the predicted X, Y and Z coordinates and their associated standard deviations, providing a measure of positional uncertainty for each reconstructed point. |
-| | `20251011_094758_NN.vtu` | **Augmented Eulerian flow field.** 3D Eulerian velocity field reconstructed from the experimental Lagrangian trajectory and mapped onto the internal tank mesh. Contains the spatially resolved experimental flow information and associated reconstructed quantities for visualization and quantitative analysis. |
-| **400 RPM** | `Predicted_coordinates_and_stds.txt` | Same Lagrangian time-series format as the 300 RPM dataset, measured at 400 RPM. |
-| | `20251012_125920_NN.vtu` | Augmented 3D Eulerian flow field reconstructed from the 400 RPM experimental trajectory. |
-| **500 RPM** | `Predicted_coordinates_and_stds.txt` | Same Lagrangian time-series format as the 300 RPM dataset, measured at 500 RPM. |
-| | `20251013_144508_NN.vtu` | Augmented 3D Eulerian flow field reconstructed from the 500 RPM experimental trajectory. |
+| **300 RPM** | `Predicted_coordinates_and_stds.txt` | **Reconstructed Lagrangian time series.** Time-resolved 3D trajectory of the radioactive tracer reconstructed from detector measurements at 300 RPM. Contains the reconstructed X, Y and Z coordinates together with their associated standard deviations, providing a point-by-point estimate of positional uncertainty. |
+| | `20251011_094758_NN.vtu` | **Augmented Eulerian flow field.** Three-dimensional Eulerian velocity field reconstructed from the experimental Lagrangian time series at 300 RPM and mapped onto the internal tank mesh. Contains spatially resolved experimental flow quantities for visualization, quantitative analysis, CFD validation, and physics-based AI applications. |
+| **400 RPM** | `Predicted_coordinates_and_stds.txt` | **Reconstructed Lagrangian time series.** Time-resolved 3D trajectory of the radioactive tracer reconstructed from detector measurements at 400 RPM. Contains the reconstructed X, Y and Z coordinates together with their associated standard deviations, providing a point-by-point estimate of positional uncertainty. |
+| | `20251012_125920_NN.vtu` | **Augmented Eulerian flow field.** Three-dimensional Eulerian velocity field reconstructed from the experimental Lagrangian time series at 400 RPM and mapped onto the internal tank mesh. Contains spatially resolved experimental flow quantities for visualization, quantitative analysis, CFD validation, and physics-based AI applications. |
+| **500 RPM** | `Predicted_coordinates_and_stds.txt` | **Reconstructed Lagrangian time series.** Time-resolved 3D trajectory of the radioactive tracer reconstructed from detector measurements at 500 RPM. Contains the reconstructed X, Y and Z coordinates together with their associated standard deviations, providing a point-by-point estimate of positional uncertainty. |
+| | `20251013_144508_NN.vtu` | **Augmented Eulerian flow field.** Three-dimensional Eulerian velocity field reconstructed from the experimental Lagrangian time series at 500 RPM and mapped onto the internal tank mesh. Contains spatially resolved experimental flow quantities for visualization, quantitative analysis, CFD validation, and physics-based AI applications. |
 
 | Result | Description |
 |---|---|
